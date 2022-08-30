@@ -1,27 +1,3 @@
-"""
-Enunciado
-Nuestro amigo y taxista Ruben ORTiz nos solicita que le desarrollemos un sistema para poder registrar y 
-obtener información sobre sus viajes diarios.
-Cada vez que comienza un viaje Rubén debe ingresar la distancia del viaje. 
-(‘C’(corto),’M’(mediano),’L’(Largo)).
-El día de Rubén finaliza cuando llega a los 30 viajes diarios o cuando ingresa distancia ‘Z’(fin de datos).
-Por cada viaje se ingresa:
-• Cantidad de pasajeros (>0 y <4)
-• Importe a cobrar + bajada de bandera ($80) 
-Y por cada pasajero de ese viaje:
-• Nombre
-• Edad (>18 y <120)
-Se desea saber por cada viaje cual es la persona mas grande y su nombre.
-Al finalizar el día de trabajo de Rubén de debe informar:
-• Cantidad de viajes por cada categoría(‘C’,’M’,’L’)
-• Recaudación total.
-• Promedio de valor por viaje.
-• El porcentaje de viajes Cortos con respecto al total de los viajes realizados.
-Todos los datos ingresados por parte del usuario deben ser validados antes de procesarse
-    global L
-    global M
-    global C
-"""
 from os import system
 
 
